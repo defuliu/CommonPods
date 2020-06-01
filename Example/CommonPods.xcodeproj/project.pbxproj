@@ -61,9 +61,9 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		825424C54C346AE3969FEB3B /* Pods-CommonPods_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonPods_Example.debug.xcconfig"; path = "Target Support Files/Pods-CommonPods_Example/Pods-CommonPods_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8B3B3D99D9CE69173D3D3FF8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		9830247D256BB7605B4A90A2 /* CommonPods.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CommonPods.podspec; path = ../CommonPods.podspec; sourceTree = "<group>"; };
-		9D4C1061632F02A4B72EE0B9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8B3B3D99D9CE69173D3D3FF8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9830247D256BB7605B4A90A2 /* CommonPods.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CommonPods.podspec; path = ../CommonPods.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D4C1061632F02A4B72EE0B9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		BF716A8219E477B457C089F3 /* Pods-CommonPods_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonPods_Tests.release.xcconfig"; path = "Target Support Files/Pods-CommonPods_Tests/Pods-CommonPods_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D1D2D6347B0E01A2A2695662 /* Pods-CommonPods_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonPods_Example.release.xcconfig"; path = "Target Support Files/Pods-CommonPods_Example/Pods-CommonPods_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E31C06C0DF8763E8EE29EC11 /* Pods_CommonPods_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CommonPods_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -193,7 +193,6 @@
 				6C6A1DC9990155EEDAEC4B2A /* Pods-CommonPods_Tests.debug.xcconfig */,
 				BF716A8219E477B457C089F3 /* Pods-CommonPods_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
